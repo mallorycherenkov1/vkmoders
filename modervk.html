@@ -1,5 +1,4 @@
 [PARSEHTML]
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,19 +9,21 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f0f2f5;
+            background-color: #1e1e1e; /* Темный фон */
             margin: 0;
+            color: #ffffff; /* Белый текст */
         }
         .container {
             max-width: 1200px;
             margin: auto;
+            padding: 20px;
         }
         .header {
             text-align: center;
             margin-bottom: 30px;
         }
         .header h1 {
-            color: #4A4A4A;
+            color: #ffffff; /* Белый текст */
             font-size: 36px;
         }
         .header img {
@@ -31,8 +32,8 @@
             margin-left: 10px;
         }
         .level {
-            background-color: #0077ff;
-            color: #ffffff;
+            background-color: #0077ff; /* Синий фон для уровней */
+            color: #ffffff; /* Белый текст */
             padding: 15px;
             border-radius: 5px;
             margin: 20px 0 10px;
@@ -43,12 +44,12 @@
         .moderator-card {
             display: flex;
             align-items: center;
-            background-color: #ffffff;
-            border: 1px solid #dcdcdc;
+            background-color: #2a2a2a; /* Темный фон для карточек */
+            border: 1px solid #444; /* Темная граница */
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 15px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
             transition: transform 0.2s;
         }
         .moderator-card:hover {
@@ -59,7 +60,7 @@
             height: 80px;
             border-radius: 50%;
             margin-right: 20px;
-            border: 2px solid #0077ff;
+            border: 2px solid #0077ff; /* Синий бордер */
         }
         .moderator-info {
             flex-grow: 1;
@@ -67,18 +68,18 @@
         .moderator-info h2 {
             margin: 0;
             font-size: 22px;
-            color: #343a40;
+            color: #ffffff; /* Белый текст */
         }
         .moderator-info p {
             margin: 5px 0;
-            color: #6c757d;
+            color: #b0b0b0; /* Светло-серый текст */
             font-size: 16px;
         }
         .social-links a {
             display: inline-block;
             margin-right: 10px;
             text-decoration: none;
-            color: #0077ff;
+            color: #0077ff; /* Синий текст */
             font-weight: bold;
         }
         .social-links img {
@@ -93,7 +94,7 @@
         <h1>Состав модерации ВКонтакте <img src="https://i.imgur.com/5fbHf56.png" alt="VK Logo"></h1>
     </div>
     
-    <div class="level">Главная Модераторация (ГМ)</div>
+    <div class="level">Главная Модераторация</div>
     <div class="moderator-card">
         <img class="avatar1" src="https://sun9-2.userapi.com/impg/lyB9HmMHcv_2FxKpS-h2AIadLJDRDHeYxE8H-w/MKfQRrfFISQ.jpg?size=1080x1276&quality=95&sign=22f01d4b8898a57944e0caee28d7ad47&type=album" alt="Yandex_Drive">
         <div class="moderator-info">
@@ -105,18 +106,7 @@
         </div>
     </div>
     
-    <!-- <div class="moderator-card">
-        <img class="avatar1" src="https://sun9-63.userapi.com/impg/eusLon45y-AQS92lzzuvu4e-z8xWvBODk0Ivtw/mtD5jiEU1d0.jpg?size=564x564&quality=95&sign=ff2ab849506edd16c4a7fcb1f5568bf3&type=album" alt="Logan_Kutuzov">
-        <div class="moderator-info">
-            <h2>Maksim Dipsaid</h2>
-            <p>Генеральный Модератор</p>
-            <div class="social-links">
-                <a href="https://vk.com/id665433558"><img src="https://i.imgur.com/5fbHf56.png" alt="VK"></a>
-            </div>
-        </div>
-    </div> -->
-    
-    <div class="level">Заместители Главного Модератора (ЗГМ)</div>
+    <div class="level">Заместители Главного Модератора</div>
     <div class="moderator-card">
         <img class="avatar1" src="https://sun9-63.userapi.com/impg/eusLon45y-AQS92lzzuvu4e-z8xWvBODk0Ivtw/mtD5jiEU1d0.jpg?size=564x564&quality=95&sign=ff2ab849506edd16c4a7fcb1f5568bf3&type=album" alt="Lanser_Kaperski">
         <div class="moderator-info">
@@ -127,18 +117,8 @@
             </div>
         </div>
     </div>
-    <!-- <div class="moderator-card">
-        <img class="avatar1" src="https://imgur.com/hNy9g3v.png" alt="Adolphe_Montana">
-        <div class="moderator-info">
-            <h2>Ник модера</h2>
-            <p>Заместитель Главного Модератора</p>
-            <div class="social-links">
-                <a href="https://vk.com/id799272174"><img src="https://i.imgur.com/5fbHf56.png" alt="VK"></a>
-            </div>
-        </div>
-    </div> -->
     
-    <div class="level">Старшие Модераторы (СМ)</div>
+    <div class="level">Старшие Модераторы</div>
     <div class="moderator-card">
         <img class="avatar1" src="https://sun9-25.userapi.com/impg/DsPkH0IH9PQE76OOuK9apJw54yfXnVxz9bblew/P2C5HwTKc_Q.jpg?size=1170x828&quality=95&sign=90f3fd673d4a303bf9af0877e2371e30&type=album" alt="Sashka_Chiroki">
         <div class="moderator-info">
